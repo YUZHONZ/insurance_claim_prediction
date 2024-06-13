@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "claim-prediction"
+version = "0.1.0"
+description = "suncorp interview"
+authors = ["Yuzhou"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.6"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+openai = "^1.33.0"
+pydantic = "^2.7.3"
+scikit-learn = "^1.5.0"
+seaborn = "^0.13.2"
+hyperopt = "^0.2.7"
+networkx = "^3.3"
+shap = "^0.45.1"
+ipywidgets = "^8.1.3"
+nltk = "^3.8.1"
+faiss-cpu = "^1.8.0"
+ipykernel = "^6.29.4"
+statsmodels = "^0.14.2"
+lightgbm = "^4.3.0"
+xgboost = "^2.0.3"
+catboost = "^1.2.5"
+notebook = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
